@@ -16,6 +16,7 @@ Create folder <b>build_linux</b> .
 
 Requirements:
 <br>CUDA Toolkit
+<br>CMake (>=3.26)
 
 # Results
 
