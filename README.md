@@ -40,7 +40,7 @@ The figure below shows the comparison of the tiled and untiled CUDA convolution 
   <img src="bulr_performance.png" width="500px"/>
 </p>
 
-These results shows that tiled implementation with CUDA, using effectively the shared memory is accually not better for Filters less than 11 x 11. For detailed discussion [<b>See</b>,](https://forums.developer.nvidia.com/t/how-to-use-more-efficiently-the-shared-memory-and-2d-tiles/253551/2)
+These results shows that tiled implementation with CUDA, using effectively the shared memory is accually not better for filter size less than 11 x 11. For detailed discussion [<b>See</b>.](https://forums.developer.nvidia.com/t/how-to-use-more-efficiently-the-shared-memory-and-2d-tiles/253551/2)
 
 
 
