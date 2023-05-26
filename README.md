@@ -31,11 +31,6 @@ gauss_gpu_tiles                         9.57 [ms]           104.49
 gauss_gpu                               8.82 [ms]           113.38
 ```
 
-
-# Benchmark comparison
-
-The figure below shows the comparison of the tiled and untiled CUDA convolution image filter for kernel radius between 1-16.
-
 ## Untiled image filter
 
 ```cpp
@@ -127,6 +122,9 @@ __global__ void conv_tiles_kernel(const float* __restrict__ in, float * __restri
     out[idx_out] = sum;
 }
 ```
+# Benchmark comparison
+
+The figure below shows the comparison of the tiled and untiled CUDA convolution image filter for kernel radius between 1-16.
 
 
 <p align="center">
