@@ -7,10 +7,14 @@ CUDA Convolution test comparing image tiled and untiled blur filters.
 <p>This demo can be build for Windows and Linux.
 
 **Windows**
-<br>Use the Visual Studio solution.
+<br>(1) Use the Visual Studio solution.
+
+<br>(2) CMake
+<br>Create folder <b>build_windows</b> .
+<br>cmake ../ -G "Visual Studio 15 2017"
 
 **Linux**
-Create folder <b>build_linux</b> .
+<br>Create folder <b>build_linux</b> .
 <br>cmake ../
 <br>make
 
